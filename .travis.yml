@@ -2,8 +2,7 @@ language: python
 python: 3.8
 
 install:
-  - pip install -r requirements-dev.txt
+  - pip install pipenv
 
 script:
-  - flake8
-  
+  - pipenv run flake8 .
