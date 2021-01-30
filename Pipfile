@@ -9,6 +9,7 @@ flake8 = "*"
 [packages]
 django = "*"
 flake8 = "*"
+python-decouple = "*"
 
 [requires]
 python_version = "3.8"
