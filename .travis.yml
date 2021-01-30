@@ -8,6 +8,7 @@ env:
     - PIPENV_IGNORE_VIRTUALENVS=1
 
 install:
+  - pip install -r requirements-dev.txt
   - pip install pipenv
   - cp contrib/env-sample .env
 
