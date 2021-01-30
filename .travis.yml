@@ -13,7 +13,9 @@ install:
 
 script:
   - pipenv run flake8 .
-  - pipenv run pytest --cov=pypro
+  - pipenv run pytest --cov=licitagiassi
 
 after_success:
-  - pipenv run condecov
+  - pipenv run codecov
+
+
