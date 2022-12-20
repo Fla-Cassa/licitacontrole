@@ -1,4 +1,4 @@
-asgiref==3.3.1
+asgiref==3.6.0
 Django==3.1.6
 flake8==3.8.4
 mccabe==0.6.1
